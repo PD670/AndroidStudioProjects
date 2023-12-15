@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EmptyActivity_menuCreate</string>
+    <string name="menu">setting</string>
+</resources>

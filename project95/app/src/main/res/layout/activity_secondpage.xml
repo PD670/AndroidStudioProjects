@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:weightSum="5"
+    android:layout_height="match_parent"
+    tools:context=".secondpage">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F1E2E2"
+        android:textSize="18dp"
+        android:text="Galaxies are sprawling systems of dust, gas, dark matter, and anywhere from a million to a trillion stars that are held together by gravity. Nearly all large galaxies are thought to also contain supermassive black holes at their centers. In our own galaxy, the Milky Way, the sun is just one of about 100 to 400 billion stars that spin around Sagittarius A*, a supermassive black hole that contains as much mass as four million suns.
+
+The deeper we look into the cosmos, the more galaxies we see. One 2016 study estimated that the observable universe contains two trillion—or two million million—galaxies. Some of those distant systems are similar to our own Milky Way galaxy, while others are quite different."
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/black"
+        app:srcCompat="@drawable/img" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Types of galaxies:"
+        android:textSize="15dp"
+        android:background="#ECD6DE"
+        android:textColor="#FF5722"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+   android:textStyle="bold"
+        android:textSize="18dp"
+
+        android:text="1.Andromeda Galaxy   2.Elliptical galaxy   3.Sombrero Galaxy   4.Pinwheel Galaxy   5.Whirlpool Galaxy   6.Triangulum Galaxy   7.Black Eye Galaxy   8.Milky Way    9.Pinwheel Galaxy   10.Globular cluster   11.Sunflower Galaxy   12.Barred spiral galaxy   13.Seyfert galaxy    14.Radio galaxy   15.Sagittarius Dwarf Spheroidal Galaxy"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+</LinearLayout>
+

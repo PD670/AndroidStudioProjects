@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="0dp">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="49dp"
+        android:text="পার্বত্যাঞ্চলে দেশের উঁচু সড়ক নির্মাণের কীর্তি "
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="পাহাড়ের কোলঘেঁষা সর্পিলাকার সড়ক। সূর্যের আলোতে কোথাও পাহাড়ের গভীর মিতালি, আবার কোথাও লুকোচুরি। যেন ছবির মতো জনপদ রাঙামাটির বাঘাইছড়ির উদয়পুর। এটিই সীমান্তের শেষ ইউনিয়ন। ওপারে ভারতের মিজোরাম পাহাড়। উদয়পুর রাঙামাটির ভেতরে হলেও খাগড়াছড়ি হয়ে সেখানে পৌঁছানো সহজ।   সীমান্ত সড়ক ঘেঁষেই উদয়পুর বাজার। ৮৩ পেরোনো স্নেহ কুমার চাকমার সঙ্গে সেখানেই কথা। জীবন সায়াহ্নে এসে সুখ-দুঃখের কথার ঝাঁপি খুললেন। বললেন, ‘গাড়ি দিয়ে এখন যাইতাছি-আসতাছি। অসুখ-বিসুখ হলে রোগীকে এখন খাগড়াছড়ি কিংবা চিটাগাং পর্যন্ত নেওয়া যায়। আগে পুরো এলাকা ছিল জঙ্গল।’ তিনি জানান, কিডনিসহ নানা রোগে দীর্ঘদিন ভুগে মাস ছয়েক আগে মারা গেছেন স্নেহকুমারের স্ত্রী কালাবি চাকমা। ওষুধের জন্য বাঘাইছড়ি পৌঁছতে এক সময় পথিমধ্যে দুই রাত পার হয়ে যেত। আর খাগড়াছড়ি পৌঁছার কথা খুব কম মানুষই কল্পনা করতেন। এখন সীমান্ত সড়ক নেটওয়ার্ক বদলে দিয়েছে পুরো এলাকার ছবি।   পার্বত্য চট্টগ্রামে সীমান্ত সড়ক প্রকল্পের মোট দৈর্ঘ্য ১ হাজার ৩৬ কিলোমিটার। ২০৩৬ সালের মধ্যে কাজ শেষ হওয়ার কথা। এখন পর্যন্ত প্রথম ধাপে ২০৫ কিলোমিটার সড়ক নির্মাণ শেষ হয়েছে। প্রথম পর্যায়ের কাজ শেষ হবে ২০২৪ সালের জুনে। পুরো কাজ শেষ হলে এটি হবে দীর্ঘ সড়ক নেটওয়ার্ক। এরই মধ্যে খাগড়াছড়ির বেতলিং, রাঙামাটির মাঝিরপাড়া ও সাইচলে পাহাড়ের কোলঘেঁষে সীমান্ত সড়ক নির্মাণ শেষ হয়েছে। এটিই দেশের ইতিহাসে সবচেয়ে উঁচু সড়ক নির্মাণের কীর্তি। যার উচ্চতা সমুদ্রপৃষ্ঠ থেকে প্রায় ২ হাজার ৮০০ ফুট। এর আগে দেশের সবচেয়ে উঁচু সড়ক ছিল বান্দরবানে পাহাড়ের ওপর দিয়ে নির্মিত থানচি-আলীকদম সড়কটি। সমুদ্র সমতল থেকে প্রায় আড়াই হাজার ফুট ওপরে। ২০১৫ সালে নির্মিত হয়েছিল সড়কটি।  বাংলাদেশ সেনাবাহিনীর কোর অব ইঞ্জিনিয়ার্সের ৩৪ ইঞ্জিনিয়ার কনস্ট্রাকশন ব্রিগেডের অধীনে ২০, ২৬ ও ১৭ ইসিবি সীমান্ত সড়ক প্রকল্পটি বাস্তবায়ন করছে। ফেনীসংলগ্ন খাগড়াছড়ির রামগড় থেকে শুরু হয়ে বান্দরবানের আলীকদমের পোয়ামুহুরিতে গিয়ে শেষ হবে সড়কটি। পুরো রাস্তাটি সীমান্তসংলগ্ন পাহাড়ের ভেতর দিয়ে নির্মিত হচ্ছে। "
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

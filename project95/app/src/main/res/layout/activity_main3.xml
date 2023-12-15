@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="17dp"
+        android:background="#6869CD74"
+        android:typeface="monospace"
+
+       android:textColor="#351A18"
+        android:text="1.momentum formula,p=mv
+2.cyclic quadrilateral formula:
+
+√(s−a) (s−b) (s−c) (s−d)    3.Ohms law formula
+
+V=IR    4. Distance Of Lightning formula
+d = s * t    5.Velocity Formula: V=S/t      6.Optics Formula, 1/f=1/v+ 1/u 7.Work Formula, W=F.d.cos θ    8.Moment Formula= F x d     9.Amplitude Formula, Asin(wt+theta)    10.
+Mass Energy Formula,E=m.c^2    11.Angular Momentum Formula, L=Iw    12.Air Resistance Formula,F=-c.v^2     13.Wavelength Formula, lemda=v/f    14.Impulse Formula ,j=f.t       15.Mass =  ρ × v    16.Heat Gain Formula,q = 1.10 × cfm × (to – ti)    17.Surface Charge Density Formula,σ = q / A     18.Conservation Of Energy Formula, E(in)-E(out)=E(sys)     19.Beat Frequency Formula, F(b)=F(1)-F(2)     20.Horsepower (HP) = (Torque × Speed)/5252     21.Kinematics Formulas,v=vo+at     22.Critical velocity (Vc) = K   η /  ρ  r      23.Strain Energy Formula,U = Fδ / 2      24.Average Force Formula,F = m (vf – vi)/Δ t
+   25.Work Done By Gravity Formula,Wg = -mg(∆ h)     26.Normal Force Formula, FN = mg     27.Photon Energy Formula ,E=hc/lemda      28.Efficiency Formula=(work output/work input)*100%
+29.Refractive Index Formula, sini/sinr=n      30.Equivalent Resistance Formula, R=R1+R2+R3+...Rn     "
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:backgroundTint="#773B3B"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:text="back" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="জাতীয় পার্টির (জাপা) সঙ্গে জোট বা কোনো ধরনের সমঝোতা না করতে প্রধানমন্ত্রী শেখ হাসিনাকে অনুরোধ করেছেন দলটির প্রধান পৃষ্ঠপোষক ও সংসদে বিরোধীদলীয় নেতা রওশন এরশাদ।   প্রধানমন্ত্রীর সঙ্গে সাক্ষাৎ শেষে মঙ্গলবার দুপুর আড়াইটার দিকে এক বিফ্রিংয়ে এ তথ্য জানিয়েছেন জাপার মুখপাত্র কাজী মামুনুর রশীদ।  তিনি আরও জানান, বেগম রওশন প্রধানমন্ত্রীকে জানিয়েছেন জাতীয় পার্টির একটা খণ্ডিত অংশ নির্বাচনে যাচ্ছে। জি এম কাদের অবৈধভাবে ক্যু করে জাতীয় পার্টি দখল করেছে। দলের শত শত নেতাকর্মীকে বহিষ্কার করেছে। তাদের মনোনয়ন বঞ্চিত করেছে। এ কারণে রওশন এরশাদ নির্বাচন বর্জন করেছেন। সেজন্য তিনি প্রধানমন্ত্রীকে অনুরোধ করেছেন জাতীয় পার্টির সঙ্গে জোট বা কোনো ধরনের সমঝোতা না করা হয়। জাতীয় পার্টির সঙ্গে কোন ধরনের সমঝোতা করতে চাইলে যেন আমাদের সঙ্গে আলোচনা করা হয়।   বিরোধীদলীয় নেতা রওশন এরশাদ বলেন, জি এম কাদেরের প্রতি আমাদের কোনো সমর্থন নেই।  প্রধানমন্ত্রী কি বলেছেন জানতে চাইলে এ বিষয়ে মসিউর রহমান রাঙ্গা বলেন, ’প্রধানমন্ত্রী বলেছেন- তিনি বিষয়টা দেখবেন।’"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="42dp"
+        android:text="জাতীয় পার্টির সঙ্গে জোট না করতে প্রধানমন্ত্রীকে অনুরোধ রওশনের "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="175dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_19" />
+</androidx.constraintlayout.widget.ConstraintLayout>

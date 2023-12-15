@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="32dp"
+        android:text="ডিমেরিট পয়েন্ট পেল মিরপুরের উইকেট"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="মিরপুর শেরে বাংলা স্টেডিয়ামের উইকেটকে ‘অসন্তোসজনক’ চিহ্নিত করে একটি ডিমেরিট পয়েন্ট দিয়েছে আন্তর্জাতিক ক্রিকেটের সর্বোচ্চ সংস্থা আইসিসি। মঙ্গলবার আইসিসি এক বার্তায় বিষয়টি নিশ্চিত করেছে।   মিরপুর শেরে বাংলা স্টেডিয়ামে বাংলাদেশ ও নিউজিল্যান্ড সিরিজের দ্বিতীয় ও শেষ টেস্ট খেলেছে। ওই টেস্টের প্রায় দুই দিন বৃষ্টি, আলো স্বল্পতা ও ভেজা মাঠের কারণে খেলা বন্ধ ছিল। তারপরও পঞ্চম দিন দ্বিতীয় সেশনে ম্যাচের ফলাফল হয়ে যায়।   ঢাকা টেস্টে প্রথম ইনিংসে বাংলাদেশ ১৭২ রান করে। নিউজিল্যান্ড প্রথম ইনিংসে ৮ রানের লিড নেয়। দ্বিতীয় ইনিংসে ১৪৪ রান করে বাংলাদেশ। কিউইরা জিতলেও ৬ উইকেট হারায়।   ওই টেস্টের উইকেট নিয়ে ম্যাচ রেফারি ডেভিট বুন আইসিসির কাছে তার রিপোর্ট পাঠান। আইসিসি ম্যাচ পরিচালনার দায়িত্বে থাকা আম্পায়ার ও দুই দলের অধিনায়কের সঙ্গে কথা বলে মিরপুরেরে উইকেটকে ডিমেরিট পয়েন্ট দিয়েছে।"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="205dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_17" />
+</androidx.constraintlayout.widget.ConstraintLayout>

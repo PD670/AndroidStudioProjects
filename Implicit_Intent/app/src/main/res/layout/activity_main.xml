@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/entry_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write Something here" />
+
+    <Button
+        android:id="@+id/b_camera"
+        android:text="Camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:id="@+id/b_contact_list"
+        android:text="Contact List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:id="@+id/b_imageGallery"
+        android:text="Image Gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:id="@+id/b_dial"
+        android:text="Dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:id="@+id/b_browser"
+        android:text="Browser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+</LinearLayout>
