@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add_customer">
+
+<EditText
+    android:layout_width="360dp"
+    android:id="@+id/c_name"
+    android:inputType="text"
+    android:background="@color/white"
+    android:textSize="18sp"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:hint="Customer name"
+    android:layout_height="45dp">
+
+</EditText>
+<EditText
+    android:layout_width="360dp"
+    android:id="@+id/c_mobile"
+    android:inputType="number"
+    android:background="@color/white"
+    android:textSize="18sp"
+    android:hint="Customer number"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+</EditText>
+    <Button
+        android:layout_width="360dp"
+        android:id="@+id/btnaddcustomer"
+        android:text="Add customer"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="45dp">
+
+    </Button>
+</LinearLayout>
